@@ -1,6 +1,6 @@
 $(document).foundation();
 
-$(document).ready(function() {
+$(document).ready(function(){
     $('a.degdeg').each(function() {
         var id = $(this).attr('id');
         $('a#'+id).zclip({
@@ -9,9 +9,3 @@ $(document).ready(function() {
         });
     });
 });
-    $( "a.copy" ).each(function() {
-     var id=$(this).attr("id");
-     $('a#'+id).zclip({
-         copy:function(){return $('input#'+id).val();},
-        });
-    });
