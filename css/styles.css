@@ -5,3 +5,16 @@
 .degdeg {
     font-size: 30px;
 }
+
+.ui-tooltip .ui-tooltip-content,
+.ui-tooltip p,
+.ui-tooltip ul,
+.ui-tooltip li,
+.ui-tooltip,
+.qtip {
+    max-width: 280px;
+    text-align: center;
+    background-color: #E5F6FE;
+    color: #94A4D3;
+    border-color: #D0E9F5;
+}
